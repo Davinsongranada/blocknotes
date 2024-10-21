@@ -34,9 +34,11 @@ function TodoProvider({ children }) {
     newTodos.splice(todoIndex, 1);
     saveTodos(newTodos);
   };
-
+  return(
   <TodoContext.Provider
     value={{
+      loading,
+      error,
       completedTodos,
       totalTodos,
       searchValue,
@@ -44,14 +46,12 @@ function TodoProvider({ children }) {
       searchedTodos,
       completeTodo,
       deleteTodo,
-      loading,
-      error,
-    }}
-  >
-    {children}
-  </TodoContext.Provider>;
-}
+    }}>
 
-<TodoContext.Consumer></TodoContext.Consumer>;
+    {children}
+
+  </TodoContext.Provider>
+  )
+}
 
 export { TodoContext, TodoProvider };
