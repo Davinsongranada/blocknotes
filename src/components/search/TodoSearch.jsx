@@ -2,8 +2,10 @@ import React from 'react'
 import { VscSearch } from "react-icons/vsc";
 
 import "./STodoSearch.css"
+import { TodoContext } from '../TodoContext/Context';
 
-export default function TodoSearch({searchValue, setSearchValue}) {
+export default function TodoSearch() {
+  const {searchValue, setSearchValue} = React.useContext(TodoContext)
   return (
     <>
       <input type="text"

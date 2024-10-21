@@ -1,13 +1,13 @@
 import React from "react";
 import "./styleButton.css";
 
-export default function CreateTodoButton() {
+export default function CreateTodoButton({ setOpenModal }) {
   return (
     <div>
       <button
         className="buttonCreate"
         onClick={() => {
-          console.log("aqui hay click");
+          setOpenModal(state => !state)
         }}
       >
         +
