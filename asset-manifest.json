@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/blocknotes/static/css/main.02a200dc.css",
+    "main.js": "/blocknotes/static/js/main.6b543b7d.js",
+    "static/js/453.8573428d.chunk.js": "/blocknotes/static/js/453.8573428d.chunk.js",
+    "index.html": "/blocknotes/index.html",
+    "main.02a200dc.css.map": "/blocknotes/static/css/main.02a200dc.css.map",
+    "main.6b543b7d.js.map": "/blocknotes/static/js/main.6b543b7d.js.map",
+    "453.8573428d.chunk.js.map": "/blocknotes/static/js/453.8573428d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.02a200dc.css",
+    "static/js/main.6b543b7d.js"
+  ]
+}
